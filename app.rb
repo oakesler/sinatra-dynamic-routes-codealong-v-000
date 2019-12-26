@@ -14,5 +14,7 @@ class App < Sinatra::Base
   end
 
   # Code your final two routes here:
+  get 'goodbye/:name' do 
+    "Goodbye, (person's name)."
 
 end
